@@ -1,0 +1,27 @@
+int led = 13;
+
+// Do the shit when you wake up
+void setup()
+{
+    pinMode(led, OUTPUT);
+}
+
+// Do the shit over and over
+void loop()
+{
+    digitalWrite(led, HIGH);
+    delay(100);
+    digitalWrite(led, LOW);
+    delay(500);
+    digitalWrite(led, HIGH);
+    delay(100);
+    digitalWrite(led, LOW);
+    delay(500);
+    digitalWrite(led, HIGH);
+    delay(300);
+    digitalWrite(led, LOW);
+    delay(500);
+    
+
+
+}

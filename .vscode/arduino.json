@@ -1,0 +1,6 @@
+{
+    "sketch": "multi_color_led.ino",
+    "board": "arduino:avr:uno",
+    "programmer": "AVRISP mkII",
+    "port": "COM3"
+}
